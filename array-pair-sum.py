@@ -1,5 +1,6 @@
-class Solution:
-    def arrayPairSum(self, nums: List[int]) -> int:
-        
-        nums.sort()
-        return sum(nums[::2])
+import sys
+nums = [1,4,3,2]
+
+nums.sort()
+
+print(sum(nums[::2]))
